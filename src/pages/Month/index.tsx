@@ -5,7 +5,7 @@ import  dayjs from "dayjs"
 import classNames from "classnames"
 import './index.scss'
 import _ from "lodash"
-import DailyBill from "./components/DailyBill"
+import DailyBill from "./DailyBill"
 
 const Month = ()=>{
     const billList = useSelector(state => state.bill.billList)
